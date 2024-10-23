@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    height: 7vh;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(173, 200, 215);
+    box-shadow: 0 0 10px;
+}
+
+.head {
+    margin: 0;
+    border: 0;
+    top: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    cursor: pointer;
+    list-style: none;
+}
