@@ -25,3 +25,26 @@ header {
     cursor: pointer;
     list-style: none;
 }
+
+#home, #about, #projects, #contact {
+    background-color: #fff;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    border-radius: 10px;
+}
+
+#home-content {
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+}
+
+.welcome {
+    font-size: 100px;
+    font-style: italic;
+    margin-top: 25vh;
+    margin-left: 15vw;
+    color:lightblue;
+}
